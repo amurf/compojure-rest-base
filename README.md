@@ -9,3 +9,9 @@ A Leiningen template for creating a basic rest app.
 This will give you a basic compojure backend that returns json. 
 
 No bloat included, only one example test.
+
+### Run tests
+    lein test
+    
+### Start web app
+    lein ring server
