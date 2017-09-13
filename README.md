@@ -14,4 +14,4 @@ No bloat included, only one example test.
     lein test
     
 ### Start web app
-    lein ring server
+    lein ring server-headless
