@@ -4,7 +4,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [compojure "1.6.0"]
                  [ring/ring-json "0.4.0"]]
-  :plugins [[lein-ring "0.12.1"]]
+  :plugins [[lein-ring "0.12.5"]]
   :ring {:handler {{name}}.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
